@@ -4,6 +4,8 @@
 
 # An example controller showing a sample home page
 
+GET     /tictactoe                 controllers.TicTacToe.index
+
 GET     /comments                   controllers.Application.comments
 
 GET     /                           controllers.Application.index

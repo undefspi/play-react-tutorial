@@ -1,0 +1,15 @@
+@(title: String)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>@title</title>
+        <script type='text/javascript' src='@routes.WebJarAssets.at(WebJarAssets.fullPath("react", "react-dom.js"))'></script>
+        <script type='text/javascript' src='@routes.WebJarAssets.at(WebJarAssets.fullPath("react", "react-with-addons.js"))'></script>
+    </head>
+    <body>
+        <h1> Welcome to the react landing page</h1>
+        <div id="content"></div>
+        <script type='text/javascript' src='@routes.Assets.versioned("javascripts/ticktactoe.js")'></script>
+    </body>
+</html>
